@@ -1,0 +1,228 @@
+h1,
+h2,
+p,
+button,
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  color: white;
+}
+
+.background-img {
+  background-image: url(../Project/IMGS/backgrounddd.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 18px;
+}
+header .left {
+  display: flex;
+  column-gap: 9%;
+  align-items: center;
+}
+header .right {
+  display: flex;
+  column-gap: 10%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.button-h1 {
+  max-width: 50%;
+  min-width: 110px;
+  border-radius: 20px;
+  background-color: transparent;
+  height: 30px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 17px;
+}
+.button-h2 {
+  max-width: 50%;
+  min-width: 110px;
+  border-radius: 20px;
+  height: 30px;
+  color: orange;
+  border: none;
+  font-weight: 600;
+  font-size: 17px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0px;
+  align-items: center;
+  height: 75%;
+  color: white;
+  text-align: center;
+}
+main h1 {
+  font-size: 410%;
+}
+main p {
+  font-size: 19px;
+}
+main .button-control {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+main .button-control .main-button-1 {
+  font-size: 18px;
+  margin: 3%;
+  max-width: 50%;
+  min-width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  color: orange;
+  border: none;
+  font-weight: 600;
+}
+
+main .button-control .main-button-2 {
+  font-size: 18px;
+  border: solid white 1px;
+  margin: 3%;
+  max-width: 50%;
+  min-width: 150px;
+  border-radius: 16px;
+  height: 35px;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+}
+.section-main1 {
+  align-items: center;
+  text-align: center;
+}
+.pass {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 300%;
+  color: rgb(1, 16, 95);
+}
+.section-1 {
+  display: flex;
+  align-items: center;
+}
+.section-1 .div-contain {
+  width: 40%;
+  padding: 15%;
+  line-height: 1.5rem;
+  row-gap: 20px;
+  text-align: start;
+}
+.div-contain h2 {
+  color: rgb(1, 16, 95);
+}
+.div-contain p {
+  color: rgb(95, 93, 93);
+}
+.section-2-left {
+  margin-top: 50px;
+}
+.section2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section2 .div-img {
+  width: 40%;
+}
+.section2 .div-text {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  padding-left: 100px;
+}
+.div-text h2 {
+  color: rgb(1, 16, 95);
+}
+.div-text p {
+  color: rgb(95, 93, 93);
+}
+.finale {
+  background-color: rgba(8, 16, 54, 0.87);
+  border-radius: 10px 100px 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+.finale img aside {
+  background-image: url(../Project/IMGS/background-telefoni.svg);
+  background-size: 300px;
+  background-size: contain;
+  height: 50vh;
+  width: 50vh;
+}
+
+.div123 {
+  width: 30%;
+  color: rgb(146, 145, 145);
+}
+.naslov {
+  color: rgb(233, 233, 233);
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(8, 16, 54, 0.87);
+  border-radius: 100px 10px 120px;
+  padding: 15vh;
+  align-items: top;
+  column-gap: 5vh;
+}
+footer ul {
+  color: rgb(182, 180, 180);
+}
+footer h1 {
+  color: rgb(233, 233, 233);
+}
+
+@media (max-width: 800px) {
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .finale img {
+    width: 400px;
+  }
+  .div-img {
+    display: none;
+    width: 20px;
+  }
+  .section2 {
+    text-align: center;
+  }
+  .div-text {
+    align-items: center;
+    width: auto;
+  }
+  .section2 .div-text {
+    width: 70%;
+    text-align: start;
+  }
+  .section-1 .div-contain {
+    width: 75%;
+    text-align: center;
+  }
+  .section-1 img {
+    width: 500px;
+    height: 450px;
+  }
+}
